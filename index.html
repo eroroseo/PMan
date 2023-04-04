@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Pacman Game</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="board">
+      <canvas id="pacmanBoard"></canvas>
+      <div class="game-state">
+        <p id="score"></p>
+        <p id="lives"></p>
+      </div>
+    </div>
+    <div class="gameOver">
+      <p>Unlucky! You lost the game..</p>
+      <button onclick="playAgain();">Play Again</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

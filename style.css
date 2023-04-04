@@ -1,0 +1,15 @@
+body {
+    background-color: black;
+    color: white;
+  }
+  
+  canvas {
+    margin: 0 auto;
+    left: 0; right:0;
+    position: absolute;
+    
+  }
+  
+  .gameOver {
+    display: none;
+  }
